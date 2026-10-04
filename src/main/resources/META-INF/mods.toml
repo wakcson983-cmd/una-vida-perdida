@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="una_vida_perdida"
+version="1.0.0"
+displayName="Una Vida Perdida"
+description='''
+Cuando un jugador muere, aparece una calavera pixel art con efecto glitch y el texto UNA VIDA PERDIDA.
+'''
+
+[[dependencies.una_vida_perdida]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.una_vida_perdida]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
